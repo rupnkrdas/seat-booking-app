@@ -8,9 +8,9 @@ class CustomAlertBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: BoxConstraints(maxHeight: 80),
+      constraints: const BoxConstraints(maxHeight: 80),
       alignment: Alignment.center,
-      decoration: BoxDecoration(),
+      decoration: const BoxDecoration(),
       child: Text(
         (tier == Tier.tier3)
             ? "Please choose a valid seat number between 1 and 32"

@@ -23,7 +23,7 @@ class CompartmentCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
       child: Container(
-        padding: EdgeInsets.all(8),
+        padding: const EdgeInsets.all(8),
         decoration: BoxDecoration(
           color: kCompartmentColour,
           borderRadius: BorderRadius.circular(8),
@@ -51,7 +51,7 @@ class CompartmentCard extends StatelessWidget {
                         chosenSeatNumber: chosenSeatNumber,
                         tier: Tier.tier3,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Seat(
                         seatNumber: firstSeatNum + 6,
                         isLeft: true,
@@ -60,7 +60,7 @@ class CompartmentCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   Row(
@@ -83,7 +83,7 @@ class CompartmentCard extends StatelessWidget {
                         chosenSeatNumber: chosenSeatNumber,
                         tier: Tier.tier3,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Seat(
                         seatNumber: firstSeatNum + 7,
                         isLeft: false,
@@ -110,7 +110,7 @@ class CompartmentCard extends StatelessWidget {
                         chosenSeatNumber: chosenSeatNumber,
                         tier: Tier.tier2,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Seat(
                         seatNumber: firstSeatNum + 4,
                         isLeft: true,
@@ -119,7 +119,7 @@ class CompartmentCard extends StatelessWidget {
                       ),
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 12,
                   ),
                   Row(
@@ -136,7 +136,7 @@ class CompartmentCard extends StatelessWidget {
                         chosenSeatNumber: chosenSeatNumber,
                         tier: Tier.tier2,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       Seat(
                         seatNumber: firstSeatNum + 5,
                         isLeft: false,

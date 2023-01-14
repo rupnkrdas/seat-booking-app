@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   PopupMenuButton<Tier>(
-                    shape: RoundedRectangleBorder(
+                    shape: const RoundedRectangleBorder(
                       side: BorderSide(
                         color: Colors.blue,
                         width: 0.5,
@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                         Radius.circular(8.0),
                       ),
                     ),
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.arrow_drop_down,
                       color: kActiveColour,
                       size: 36,
@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                 height: 12,
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 8),
+                padding: const EdgeInsets.symmetric(horizontal: 8),
                 decoration: BoxDecoration(
                     border: Border.all(
                       color: Colors.blue,
@@ -140,7 +140,7 @@ class _HomePageState extends State<HomePage> {
                     children: [
                       Expanded(
                         child: TextField(
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: Colors.white,
                           ),
                           controller: _seatNumberController,
@@ -199,7 +199,7 @@ class _HomePageState extends State<HomePage> {
                             child: Text(
                               'Find',
                               style: GoogleFonts.lato(
-                                color: Color(0XFF0A2647),
+                                color: const Color(0XFF0A2647),
                                 fontWeight: FontWeight.bold,
                                 fontSize: 18,
                               ),

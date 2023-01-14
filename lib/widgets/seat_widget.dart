@@ -49,7 +49,7 @@ class Seat extends StatelessWidget {
       }
     }
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: 3.0, vertical: 2),
+      padding: const EdgeInsets.symmetric(horizontal: 3.0, vertical: 2),
       child: Material(
         color: Colors.transparent,
         child: InkWell(
@@ -63,7 +63,7 @@ class Seat extends StatelessWidget {
             );
           },
           child: Ink(
-            padding: EdgeInsets.all(6),
+            padding: const EdgeInsets.all(6),
             width: (tier == Tier.tier3)
                 ? MediaQuery.of(context).size.width * 0.18
                 : MediaQuery.of(context).size.width * 0.22,
@@ -83,12 +83,12 @@ class Seat extends StatelessWidget {
                         style: GoogleFonts.varelaRound(
                           color: (chosenSeatNumber != seatNumber)
                               ? Colors.white
-                              : Color(0XFF0A2647),
+                              : const Color(0XFF0A2647),
                           fontSize: MediaQuery.of(context).size.height * 0.032,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
                       Flexible(
@@ -100,7 +100,7 @@ class Seat extends StatelessWidget {
                             style: TextStyle(
                               color: (chosenSeatNumber != seatNumber)
                                   ? Colors.white
-                                  : Color(0XFF0A2647),
+                                  : const Color(0XFF0A2647),
                               fontSize:
                                   MediaQuery.of(context).size.height * 0.011,
                             ),
@@ -122,14 +122,14 @@ class Seat extends StatelessWidget {
                             style: TextStyle(
                               color: (chosenSeatNumber != seatNumber)
                                   ? Colors.white
-                                  : Color(0XFF0A2647),
+                                  : const Color(0XFF0A2647),
                               fontSize:
                                   MediaQuery.of(context).size.height * 0.011,
                             ),
                           ),
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         height: 4,
                       ),
                       Text(
@@ -137,7 +137,7 @@ class Seat extends StatelessWidget {
                         style: GoogleFonts.varelaRound(
                           color: (chosenSeatNumber != seatNumber)
                               ? Colors.white
-                              : Color(0XFF0A2647),
+                              : const Color(0XFF0A2647),
                           fontSize: MediaQuery.of(context).size.height * 0.032,
                           fontWeight: FontWeight.bold,
                         ),
