@@ -5,11 +5,6 @@ import 'package:seat_booking_app/widgets/custom_alert_box.dart';
 import 'package:seat_booking_app/widgets/custom_result_dialog.dart';
 import '../widgets/compartment_card.dart';
 
-enum Tier {
-  tier2,
-  tier3;
-}
-
 class HomePage extends StatefulWidget {
   static var _seatSelection = ValueNotifier<int>(-1);
   const HomePage({super.key});
